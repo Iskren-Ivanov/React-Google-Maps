@@ -1,0 +1,15 @@
+.home {
+    padding: 0 35px;
+}
+
+.home p,
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 9px 16px;
+}
+
+.homeBody p {
+    font-size: 14px;
+}

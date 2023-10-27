@@ -1,0 +1,16 @@
+.collapsPointCurrCategory {
+    margin: 5px 0;
+}
+
+.collapsPoint {
+    overflow: hidden;
+}
+
+.collapsPointBtns {
+    position: absolute;
+    right: 20px;
+}
+
+.collapsPointBtns button {
+    margin-left: 7px;
+}

@@ -1,0 +1,25 @@
+.banner {
+    width: 50vw;
+    height: 12vh;
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    border: 2px solid #001529 !important;
+    border-radius: 5px;
+    overflow: hidden;
+    resize: none;
+}
+
+.bannerBtn {
+    margin: 5px;
+    width: 7vw;
+}
+
+.bannerBackground {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}

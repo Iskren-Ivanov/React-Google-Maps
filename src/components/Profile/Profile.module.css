@@ -1,0 +1,9 @@
+ .profileCard {
+     overflow: hidden;
+     border: 0;
+     background: none;
+ }
+
+ .profileCardMeta {
+     overflow: hidden;
+ }
