@@ -3,5 +3,7 @@ A React Google Maps app that integrates the react google maps API, allowing user
 
 Profiles available for login are:
 
-1.email: male@gmail.com and password: asd123
-2.email: female@gmail.com and password: asd123
+1. Email: male@gmail.com
+   Password: asd123
+2. Email: female@gmail.com
+   Password: asd123
