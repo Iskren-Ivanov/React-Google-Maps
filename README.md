@@ -1,5 +1,5 @@
 # React-Google-Maps
-A React Google Maps app that integrates the react google maps API, allowing users to login with their accounts. Users can manage their favorite places by adding, editing and removing them. The app also offers convenient options for sorting favorite places both by category and alphabetically.
+The React Google Maps app integrates the Google Maps API to authenticate users and manage a collection of favorite locations. Users can add, edit and remove their favorite places and have the flexibility to sort them by name or alphabetical description. The app also offers a category-based filtering system. Please note that granting location permissions is critical for the app to work effectively.
 
 Profiles available for login are:
 
