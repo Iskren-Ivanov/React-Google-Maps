@@ -19,9 +19,7 @@ const CollapsePoint = ({ point }) => {
     const handleEdit = () => {
         navigate('/editPointOfInterest', { state: point });
     };
-
-    console.log(`Render CollapsePoint`)
-
+ 
     return (
         <div className={ styles.collapsPoint }>
             <div className={ styles.collapsPointBtns }>
@@ -36,8 +34,8 @@ const CollapsePoint = ({ point }) => {
                     size='small' danger
                     icon={ <CloseOutlined /> } />
             </div>
-            <div className={ styles.collapsPointsCurrCategory }> <strong>Description:</strong> { point.description } </div>
-            <div className={ styles.collapsPointsCurrCategory }> <strong>Category:</strong> { point.category }</div>
+            <div className={ styles.collapsPointsCurrCategory }> <strong>Description:</strong> { point?.description } </div>
+            <div className={ styles.collapsPointsCurrCategory }> <strong>Category:</strong> { point?.category }</div>
         </div>
     )
 }

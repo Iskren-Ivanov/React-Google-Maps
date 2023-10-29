@@ -31,8 +31,8 @@ const SavedPoints = () => {
     });
 
     const collapsablePoints = sortedPoints.map((point) => ({
-        key: point.id,
-        label: point.name,
+        key: point?.id,
+        label: point?.name,
         children: <CollapsePoint point={ point } />,
     }));
 
