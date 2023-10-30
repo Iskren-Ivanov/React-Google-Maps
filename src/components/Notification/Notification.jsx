@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { notification } from 'antd';
 
@@ -6,16 +5,16 @@ const Notification = ({ title, text }) => {
     const [api, contextHolder] = notification.useNotification();
 
     useEffect(() => {
-        api.error({
-            message: title,
-            description: text
-        });
-    }, [text, title])
+        if (text) {
+            api.error({
+                message: title,
+                description: text
+            });
+        }
+    }, [api, title, text]);
 
-    return text && (
-        <>
-            { contextHolder }
-        </>
+    return (
+        <>{contextHolder}</>
     );
 };
 
